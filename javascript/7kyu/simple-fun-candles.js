@@ -12,3 +12,7 @@ function candles(candlesNumber, makeNew) {
 
   return totalBurned;
 }
+
+//OR
+
+//return candlesNumber + Math.floor((candlesNumber - 1) / (makeNew - 1));
