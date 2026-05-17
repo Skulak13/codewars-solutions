@@ -1,4 +1,3 @@
-```js id="c8n4rx"
 // Codewars kata: "Fix My Circles"
 // Level: 7 kyu
 // Link: https://www.codewars.com/kata/68332539defbf760434582d1/javascript
@@ -149,5 +148,4 @@ function circleMender(content) {
    - Space complexity: O(n)
      (New strings/arrays are created)
 */
-```
 
