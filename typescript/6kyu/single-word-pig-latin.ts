@@ -1,4 +1,15 @@
-//No regex version
+export function pigLatin(str: string): string | null {
+  str = str.toLowerCase();
+  if (!/^[a-z]+$/.test(str)) return null;
+
+  if (/^[aeiou]/.test(str)) return str + "way";
+
+  const i = str.search(/[aeiou]/);
+  return i === -1 ? str + "ay" : str.slice(i) + str.slice(0, i) + "ay";
+}
+
+
+/*No regex version
 
 export function pigLatin(string:string):string|null{
   const stringLow = string.toLowerCase();
@@ -21,3 +32,5 @@ export function pigLatin(string:string):string|null{
     return stringLow + "ay";
   }
 }
+
+*/
