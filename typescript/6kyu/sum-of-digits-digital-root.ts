@@ -1,7 +1,7 @@
 // Codewars kata: "Sum of Digits / Digital Root"
 // Level: 6 kyu
 // Link: https://www.codewars.com/kata/541c8630095125aba6000c00
-// Date completed: 2026-01-XX
+// Date completed: 2026-07-14
 
 // Description:
 // Given a non-negative integer, return its digital root.
